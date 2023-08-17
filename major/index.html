@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title>Home</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./asset/favicon.png" type="image/x-icon">
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google font icons CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- google font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg p-0">
+        <div class="container-fluid header">
+            <div class="header_left">
+                <a href="index.html">
+                    <img src="./asset/logo.png" alt="logo">
+                </a>
+                <div class="header_input">
+                    <span class="material-symbols-outlined"> search</span>
+                    <input type="text" placeholder="Search Here">
+                </div>
+            </div>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="header_middle">
+                    <div class="header_option active">
+                        <a href="index.html">
+                            <span class="material-symbols-outlined">home</span>
+                        </a>
+                    </div>
+                    <div class="header_option">
+                        <a href="g.html">
+                            <span class="material-symbols-outlined">explore</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="header_right">
+                    <div class="header_info">
+                        <img src="./asset/avatar.gif" alt="" class="user_avatar">
+                        <h4>Sai Vamshi</h4>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main body starts -->
+    <div class="main_body">
+        <!-- message sender starts -->
+        <div class="messagesender">
+            <div class="messagesender_top">
+                <img src="./asset/avatar.gif" alt="" class="user_avatar">
+                <form>
+                    <input type="text" class="messagesender_input" placeholder="What's on your mind? ">
+                </form>
+            </div>
+            <div class="messagesender_bottom">
+                <div class="messagesender_option">
+                    <label for="myfile"><span style="color: red;" class="material-symbols-outlined">upload_file</span><span>File</span></label>
+                    <input type="file" id="myfile">
+                    <!-- <span style="color: red;" class="material-symbols-outlined">upload_file</span>
+                    <h3>File</h3> -->
+                </div>
+                <div class="messagesender_option">
+                    <label for="myphoto"><span style="color: darkgreen;" class="material-symbols-outlined">photo_camera</span><span>Photo</span></label>
+                    <input type="file" accept="image/*" capture="camera" id="myphoto">
+                </div>
+                <div class="messagesender_option">
+                    <label for="myvideo"><span style="color: blue;" class="material-symbols-outlined">videocam</span><span>Video</span></label>
+                    <input type="file" accept="video/*" capture="camera" id="myvideo">
+                </div>
+                <div class="messagesender_option">
+                    <input type="submit">
+                </div>
+            </div>
+        </div>
+        <!-- message sender ends -->
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post_top">
+                <img src="./asset/avatar.gif" alt="" class="user_avatar post_avatar">
+                <div class="post_topinfo">
+                    <h3>Sai Vamshi</h3>
+                    <p>28 April at 20:30</p>
+                </div>
+            </div>
+            <div class="post_bottom">
+                <p>Message</p>
+            </div>
+
+            <div class="post_image">
+                <video src="./data/pexels_videos_2516162 (360p).mp4" controls></video>
+            </div>
+
+            <div class="post_options">
+                <div class="post_option">
+                    <span class="material-symbols-outlined like-button"  id="likeButton">thumb_up</span>
+                    <p id="likeCount">0 likes</p>
+                </div>
+                <div class="post_option">
+                    <span class="material-symbols-outlined">chat_bubble</span>
+                    <p>Comment</p>
+                </div>
+                <div class="post_option">
+                    <span class="material-symbols-outlined button dislike-button" id="dislikeButton">thumb_down</span>
+                    <p id="dislikeCount">0 dislikes</p>
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+        
+        <!-- post starts -->
+        <div class="post">
+            <div class="post_top">
+                <img src="./asset/avatar.gif" alt="" class="user_avatar post_avatar">
+                <div class="post_topinfo">
+                    <h3>Sai Vamshi</h3>
+                    <p>28 April at 20:30</p>
+                </div>
+            </div>
+            <div class="post_bottom">
+                <p>Message</p>
+            </div>
+
+            <div class="post_image">
+                <img src="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRlc3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+            </div>
+
+            <div class="post_options">
+                <div class="post_option">
+                    <span class="material-symbols-outlined like-button"  id="likeButton">thumb_up</span>
+                    <p id="likeCount">0 likes</p>
+                </div>
+                <div class="post_option">
+                    <span class="material-symbols-outlined">chat_bubble</span>
+                    <p>Comment</p>
+                </div>
+                <div class="post_option">
+                    <span class="material-symbols-outlined button dislike-button" id="dislikeButton">thumb_down</span>
+                    <p id="dislikeCount">0 dislikes</p>
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+        <!-- post starts -->
+        <div class="post">
+            <div class="post_top">
+                <img src="./asset/avatar.gif" alt="" class="user_avatar post_avatar">
+                <div class="post_topinfo">
+                    <h3>Sai Vamshi</h3>
+                    <p>28 April at 20:30</p>
+                </div>
+            </div>
+            <div class="post_bottom">
+                <p>Message</p>
+            </div>
+
+            <div class="post_image">
+                <img src="https://images.unsplash.com/photo-1509869175650-a1d97972541a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGVzdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+            </div>
+
+            <div class="post_options">
+                <div class="post_option">
+                    <span class="material-symbols-outlined like-button"  id="likeButton">thumb_up</span>
+                    <p id="likeCount">0 likes</p>
+                </div>
+                <div class="post_option">
+                    <span class="material-symbols-outlined">chat_bubble</span>
+                    <p>Comment</p>
+                </div>
+                <div class="post_option">
+                    <span class="material-symbols-outlined button dislike-button" id="dislikeButton">thumb_down</span>
+                    <p id="dislikeCount">0 dislikes</p>
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+    </div>
+    <!-- main body ends -->
+
+
+    <!-- bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
